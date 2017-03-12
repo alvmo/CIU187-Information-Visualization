@@ -1,0 +1,48 @@
+[
+    {
+        "gender": "Men",
+        "facebook": {
+            "users": 67,
+            "daily users": 47
+        },
+        "instagram": {
+            "users": 37,
+            "daily users": 19
+        },
+         "linkedin": {
+            "users": 30,
+            "daily users": 3
+        },
+         "snapchat": {
+            "users": 23,
+            "daily users": 14
+        },
+         "twitter": {
+            "users": 21,
+            "daily users": 7
+        }
+    },
+    {
+        "gender": "Women",
+        "facebook": {
+            "users": 75,
+            "daily users": 57
+        },
+        "instagram": {
+            "users": 52,
+            "daily users": 34
+        },
+         "linkedin": {
+            "users": 21,
+            "daily users": 2
+        },
+         "snapchat": {
+            "users": 27,
+            "daily users": 19
+        },
+         "twitter": {
+            "users": 16,
+            "daily users": 5
+        }
+    }
+]

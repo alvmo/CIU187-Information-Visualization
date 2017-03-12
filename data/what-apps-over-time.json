@@ -1,0 +1,163 @@
+[
+    {
+        "year": 2010,
+        "facebook": {
+            "users": null,
+            "daily users": null
+        },
+        "instagram": {
+            "users": null,
+            "daily users": null
+        },
+        "linkedin": {
+            "users": null,
+            "daily users": null
+        },
+        "snapchat": {
+            "users": null,
+            "daily users": null
+        },
+        "twitter": {
+            "users": null,
+            "daily users": null
+        }
+    },
+    {
+        "year": 2011,
+        "facebook": {
+            "users": 63,
+            "daily users": 37
+        },
+        "instagram": {
+            "users": null,
+            "daily users": null
+        },
+        "linkedin": {
+            "users": null,
+            "daily users": null
+        },
+        "snapchat": {
+            "users": null,
+            "daily users": null
+        },
+        "twitter": {
+            "users": 8,
+            "daily users": 1.7
+        }
+    },
+    {
+        "year": 2012,
+        "facebook": {
+            "users": 64,
+            "daily users": 41
+        },
+        "instagram": {
+            "users": null,
+            "daily users": null
+        },
+        "linkedin": {
+            "users": 11,
+            "daily users": 1
+        },
+        "snapchat": {
+            "users": null,
+            "daily users": null
+        },
+        "twitter": {
+            "users": 12,
+            "daily users": 3.8
+        }
+    },
+    {
+        "year": 2013,
+        "facebook": {
+            "users": 66,
+            "daily users": 45
+        },
+        "instagram": {
+            "users": 16,
+            "daily users": 4
+        },
+        "linkedin": {
+            "users": null,
+            "daily users": null
+        },
+        "snapchat": {
+            "users": null,
+            "daily users": null
+        },
+        "twitter": {
+            "users": 18,
+            "daily users": 5.8
+        }
+    },
+    {
+        "year": 2014,
+        "facebook": {
+            "users": 68,
+            "daily users": 47
+        },
+        "instagram": {
+            "users": 36,
+            "daily users": 21
+        },
+        "linkedin": {
+            "users": null,
+            "daily users": null
+        },
+        "snapchat": {
+            "users": null,
+            "daily users": null
+        },
+        "twitter": {
+            "users": 19,
+            "daily users": 6.1
+        }
+    },
+    {
+        "year": 2015,
+        "facebook": {
+            "users": 70,
+            "daily users": 50
+        },
+        "instagram": {
+            "users": 40,
+            "daily users": 23
+        },
+        "linkedin": {
+            "users": 22,
+            "daily users": 2
+        },
+        "snapchat": {
+            "users": 21,
+            "daily users": 13
+        },
+        "twitter": {
+            "users": 22,
+            "daily users": 6.4
+        }
+    },
+    {
+        "year": 2016,
+        "facebook": {
+            "users": 71,
+            "daily users": 52
+        },
+        "instagram": {
+            "users": 44,
+            "daily users": 26
+        },
+        "linkedin": {
+            "users": 26,
+            "daily users": 2
+        },
+        "snapchat": {
+            "users": 25,
+            "daily users": 16
+        },
+        "twitter": {
+            "users": 18,
+            "daily users": 6
+        }
+    }
+]

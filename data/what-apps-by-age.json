@@ -1,0 +1,186 @@
+[
+    {
+        "age": "12-15",
+        "facebook": {
+            "users": 67,
+            "daily users": 30
+        },
+        "instagram": {
+            "users": 84,
+            "daily users": 61
+        },
+        "linkedin": {
+            "users": null,
+            "daily users": null
+        },
+        "snapchat": {
+            "users": 83,
+            "daily users": 69
+        },
+        "twitter": {
+            "users": 29,
+            "daily users": 7
+        }
+    },
+    {
+        "age": "16-25",
+        "facebook": {
+            "users": 94,
+            "daily users": 78
+        },
+        "instagram": {
+            "users": 71,
+            "daily users": 54
+        },
+        "linkedin": {
+            "users": 16,
+            "daily users": 2
+        },
+        "snapchat": {
+            "users": 75,
+            "daily users": 58
+        },
+        "twitter": {
+            "users": 36,
+            "daily users": 15
+        }
+    },
+    {
+        "age": "26-35",
+        "facebook": {
+            "users": 87,
+            "daily users": 70
+        },
+        "instagram": {
+            "users": 61,
+            "daily users": 43
+        },
+        "linkedin": {
+            "users": 38,
+            "daily users": 5
+        },
+        "snapchat": {
+            "users": 28,
+            "daily users": 13
+        },
+        "twitter": {
+            "users": 23,
+            "daily users": 10
+        }
+    },
+    {
+        "age": "36-45",
+        "facebook": {
+            "users": 77,
+            "daily users": 59
+        },
+        "instagram": {
+            "users": 47,
+            "daily users": 22
+        },
+        "linkedin": {
+            "users": 42,
+            "daily users": 3
+        },
+        "snapchat": {
+            "users": 9,
+            "daily users": 3
+        },
+        "twitter": {
+            "users": 20,
+            "daily users": 6
+        }
+    },
+    {
+        "age": "46-55",
+        "facebook": {
+            "users": 72,
+            "daily users": 54
+        },
+        "instagram": {
+            "users": 36,
+            "daily users": 14
+        },
+        "linkedin": {
+            "users": 34,
+            "daily users": 3
+        },
+        "snapchat": {
+            "users": 10,
+            "daily users": 2
+        },
+        "twitter": {
+            "users": 15,
+            "daily users": 3
+        }
+    },
+    {
+        "age": "56-65",
+        "facebook": {
+            "users": 56,
+            "daily users": 40
+        },
+        "instagram": {
+            "users": 23,
+            "daily users": 8
+        },
+        "linkedin": {
+            "users": 18,
+            "daily users": 1
+        },
+        "snapchat": {
+            "users": 3,
+            "daily users": 1
+        },
+        "twitter": {
+            "users": 9,
+            "daily users": 1
+        }
+    },
+    {
+        "age": "66-75",
+        "facebook": {
+            "users": 53,
+            "daily users": 36
+        },
+        "instagram": {
+            "users": 14,
+            "daily users": 5
+        },
+        "linkedin": {
+            "users": 7,
+            "daily users": 0
+        },
+        "snapchat": {
+            "users": 1,
+            "daily users": 0
+        },
+        "twitter": {
+            "users": 5,
+            "daily users": 2
+        }
+    },
+    {
+        "age": "76+",
+        "facebook": {
+            "users": 36,
+            "daily users": 18
+        },
+        "instagram": {
+            "users": 6,
+            "daily users": 1
+        },
+        "linkedin": {
+            "users": 8,
+            "daily users": 0
+        },
+        "snapchat": {
+            "users": 0,
+            "daily users": 0
+        },
+        "twitter": {
+            "users": 5,
+            "daily users": 1
+        }
+    }
+]

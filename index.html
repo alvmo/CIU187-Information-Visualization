@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <!-- Roboto Font-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <!-- Page css -->
+    <link href="/css/style.css" rel="stylesheet">
+    <!-- Load c3.css -->
+    <link href="/css/c3-0.4.11/c3-0.4.11/c3.css" rel="stylesheet" type="text/css">
+    <!-- Load d3.js and c3.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="titleArea">
+            <div id="title-container">
+                <div id="searchfield">
+                    <h1 id="title"> How do Swedes use Social Media? <img src="img/emoji-thinking.png" id="emoji" /></h1>
+                    <img src="img/search.svg" id="search" />
+                </div>
+
+                <p id="subtitle"> Answered in three questions. </p>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-left">
+                <h2 class="question">1. How many use it?</h2>
+                <p class="answer">
+                    <span id="users" class="big-number">77<span class="unit">%</span></span>
+                    of swedes use <br> social media in 2016
+                </p>
+           
+            </div>
+            <div class="section-right">
+                <div class="title-tabs-container">
+                    <h3 class="data-title">Users &amp; Daily Users</h3>
+                    <ul class="tabs">
+                        <li class="tab">Over Time</li>
+                        <li class="tab">By Age</li>
+                        <li class="tab">By Gender</li>
+                    </ul>
+                </div>
+                <div class="tab-content">
+                    <div id="how-many-over-time"></div>
+                </div>
+                <div class="tab-content">
+                    <div id="how-many-by-age"></div>
+                </div>
+                <div class="tab-content">
+                    <div id="how-many-by-gender"></div>
+                </div>
+                <br>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-left">
+                <h2 class="question">2. For how long?</h2>
+                <p class="answer">
+                    <span id="hours" class="big-number">7.4<span class="unit">h</span></span>
+                    per week on <br> average in 2016
+                </p>
+              
+            </div>
+            <div class="section-right">
+                <div class="title-tabs-container">
+                    <h3 class="data-title">Hours per week</h3>
+                    <ul class="tabs">
+                        <li class="tab">Over Time</li>
+                        <li class="tab">By Age</li>
+                        <li class="tab">By Gender</li>
+                    </ul>
+                </div>
+
+                <div class="tab-content">
+                    <div id="for-how-long-over-time"></div>
+                </div>
+                <div class="tab-content">
+                    <div id="for-how-long-by-age"></div>
+                </div>
+                <div class="tab-content">
+                    <div id="for-how-long-by-gender"></div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-left" style="padding-bottom: 60px;">
+                <h2 class="question">3. Which apps?</h2>
+                <div id="phone">
+                    <div id="screen">
+                        <img id="statusbar" src="/img/statusbar.png" />
+                        <div id="navbar">
+                            <h3 id="navbar-title"> Most used apps </h3>
+                        </div>
+                        <ol id="app-list">
+                            <li class="app-list-item">
+                                <p class="app-number">1</p>
+                                <img class="app-icon" src="img/icons/facebook.png" />
+                                <p class="app-name"> Facebook<br><span class="app-category">Social Media</span></p>
+                                <p class="app-button">Show</p>
+                            </li>
+                            <li class="app-list-item">
+                                <p class="app-number">2</p>
+                                <img class="app-icon" src="/img/icons/instagram.png" />
+                                <p class="app-name">Instagram<br><span class="app-category">Social Media</span></p>
+                                <p class="app-button">Show</p>
+                            </li>
+                            <li class="app-list-item">
+                                <p class="app-number">3</p>
+                                <img class="app-icon" src="/img/icons/linkedin.png" />
+                                <p class="app-name"> LinkedIn<br><span class="app-category">Social Media</span></p>
+                                <p class="app-button">Show</p>
+                            </li>
+                            <li class="app-list-item">
+                                <p class="app-number">4</p>
+                                <img class="app-icon" src="/img/icons/snapchat.png" />
+                                <p class="app-name">Snapchat<br><span class="app-category">Social Media</span></p>
+                                <p class="app-button">Show</p>
+                            </li>
+                            <li class="app-list-item">
+                                <p class="app-number">5</p>
+                                <img class="app-icon" src="/img/icons/twitter.png" />
+                                <p class="app-name">Twitter<br><span class="app-category">Social Media</span></p>
+                                <p class="app-button">Show</p>
+                            </li>
+                        </ol>
+                    </div>
+
+                </div>
+            </div>
+            <div class="section-right" style="padding-bottom: 60px;">
+                <div class="title-tabs-container">
+                    <h3 id="selected-app" class="data-title">Most used apps</h3>
+                    <ul class="tabs">
+                        <li class="app-tab">Over Time</li>
+                        <li class="app-tab">By Age</li>
+                        <li class="app-tab">By Gender</li>
+                    </ul>
+                </div>
+                <div class="app-tab-content">
+                    <div id="what-apps-over-time"></div>
+                </div>
+                <div class="app-tab-content">
+                    <div id="what-apps-by-age"></div>
+                </div>
+                <div class="app-tab-content">
+                    <div id="what-apps-by-gender"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="grey-box"></div>
+    <p id="data"> Data 
+        <a id="report-link" href="http://www.soi2016.se/the-swedes-and-the-internet-2016-summary/">The Swedes and the Internet 2016</a>
+    </p>
+    <script src="main.js"></script>
+</body>
+
+</html>

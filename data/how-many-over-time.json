@@ -1,0 +1,37 @@
+[
+    {
+        "year": 2010,
+        "daily": 28,
+        "user": 53 
+    },
+    {
+        "year": 2011,
+        "daily": 35,
+        "user": 62 
+    },
+    {
+        "year": 2012,
+        "daily": 39,
+        "user": 64 
+    },
+    {
+        "year": 2013,
+        "daily": 44,
+        "user": 70 
+    },
+    {
+        "year": 2014,
+        "daily": 48,
+        "user": 72 
+    },
+    {
+        "year": 2015,
+        "daily": 53,
+        "user": 76 
+    },
+    {
+        "year": 2016,
+        "daily": 58,
+        "user": 77 
+    }
+]

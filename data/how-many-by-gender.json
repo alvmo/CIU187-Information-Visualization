@@ -1,0 +1,11 @@
+[
+    {
+        "gender": "Men",
+        "user": 67,
+        "daily": 47
+    },{
+        "gender": "Women",
+        "user": 75,
+        "daily": 57
+    }
+]

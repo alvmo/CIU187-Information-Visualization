@@ -1,0 +1,322 @@
+body {
+            /* Flex box */
+            display: flex;
+            align-items: center;
+            justify-content: top;
+            flex-direction: column;
+            /* Font */
+            font-family: 'Roboto', sans-serif;
+
+            background: #D4D6D9;
+            padding: 0;
+            margin: 0;
+        }
+        
+        h1,h2, h3, p {
+            font-weight: 300;
+        }
+        
+        #container {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            
+        }
+        
+        #titleArea {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: #3B5998;
+            padding: 30px 0 20px;
+
+        }
+        #searchfield {
+            width: calc(1060 - 24px);
+            height: 32px;
+            background: white;
+            margin: 0 0 8px;
+            padding: 16px;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #search {
+            width: 32px;
+            height: 32px;
+        }
+
+
+        #subtitle {
+            margin: 5px 0;
+            color: white;
+            font-size: 20px;
+        }
+
+        #title-container {
+            width: 1060px;
+        }
+
+        #title {
+
+            text-align: left;
+      
+            color: #252525;
+   
+        }
+
+        #emoji {
+            display: inline-block;
+            width: 36px;
+            height: 36px;
+        }
+
+        .section {
+            display: flex;
+            flex-direction: row;
+            align-items: top;
+            justify-content: center;
+            border-bottom: 1px solid #999;
+        }
+
+
+        /* Section Left */ 
+        .section-left {
+            width: 300px;
+            border-left: 1px solid #999;
+            padding: 15px 0;
+            background: #F9F9F9;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+   
+        }
+
+        .question {
+            font-weight: 500;
+            text-align: center;
+            font-size: 28px;
+            margin: 15px;
+        }
+
+        .data-title {
+            font-weight: 500;
+            text-align: left;
+            font-size: 28px;
+            color: #454545;
+        }
+
+        .data-title, .tabs {
+            display: inline;
+        }
+        .answer {
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .big-number {
+            font-weight: 500;
+            font-size: 64px;
+            display: block;
+        }
+        #users {
+            color: #748DC3;
+        }
+        #hours {
+            color:#2A52A7;
+        }
+        .unit {
+            font-size: 48px;
+        }
+
+        /* Section Right */ 
+        
+        .section-right {
+            width: 700px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            background: white;
+            padding: 30px;
+            border-right: 1px solid #999;
+           
+        }
+
+        .section-right > h3 {
+            display: inline;
+        }
+
+
+        /* Tabs */ 
+        .tabs {
+            list-style-type:none;
+            display: inline;
+            margin: 0;
+            padding: 0;
+     
+        }
+
+        .tab, .app-tab {
+            display: inline;
+            margin: 0 10px;
+            cursor: pointer;
+            font-size: 18px;
+            padding: 4px 8px;
+           
+        }
+        .tab:hover, .app-tab:hover {
+            background: #F2F2F2;
+
+        }
+
+        .tab-content, .app-tab-content {
+            display: none;
+        }
+
+        .selected-tab {
+              background: #F2F2F2;
+            border-bottom: 2px solid black;
+        }
+
+        .title-tabs-container {
+            margin: 0 0 30px;
+        }
+        /* Iphone stuff */ 
+        #phone {
+            background-image: url("/img/iphone2.png");
+            background-size: 250px 500px;
+            width: 250px;
+            height: 500px;
+        }
+        
+        #screen {
+            background: green;
+            width: calc(250px * 0.85);
+            height: calc(500px * 0.75);
+            position: relative;
+            top: calc(500px * 0.26 / 2);
+            left: calc(250px * 0.155 / 2);
+            padding: 0;
+            overflow: hidden;
+        }
+        
+        #statusbar,
+        #navbar,
+        #app-list {
+            margin: 0;
+            padding: 0;
+            width: calc(250px * 0.85);
+            display: block;
+            background: white;
+        }
+        
+        #navbar {
+            padding-top: 12px;
+        }
+        
+        #navbar-title {
+            margin: 0;
+            text-align: center;
+            font-weight: 500;
+            font-size: 16px;
+        }
+        
+        #app-list {
+            height: 400px;
+            padding-top: 10px;
+        }
+        
+        /* Iphone - List items */
+        .app-list-item {
+            width: calc(250px * 0.85);
+            border-top: 1px solid #CECECE;
+            height: 64px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .app-list-item:last-child {
+            border-bottom: 1px solid #CECECE;
+        }
+        
+        .app-list-item:hover {
+            background: #EEE;
+            cursor: pointer;
+        }
+        .app-number {
+            margin: 0 8px;
+            color: #555555;
+        }
+        .app-icon {
+            width: 42px;
+            height: 42px;
+     
+            border-radius: 8px;
+        }
+
+        .app-name {
+            margin: 0;
+            padding: 0;
+            font-weight: 500;
+        }
+
+        .app-category {
+          margin: 0;
+            padding: 0;
+            color: #555555;
+            font-size: 12px;
+        }
+
+        .app-button {
+            padding: 4px 8px;
+            font-size: 12px;
+            font-weight: 500;
+            border-radius: 4px;
+            margin-right: 8px;
+        }
+
+        .app-button-available {
+            border: 1px solid green;
+            color: green;
+        }
+
+        .app-button-available:hover {
+            border: 1px solid green;
+            color: white;
+            background: green
+        }
+
+        .app-button-selected {
+            border: 1px solid red;
+            color: red;
+        }
+        .app-button-selected:hover {
+            border: 1px solid red;
+            color: white;
+            background: red;
+        }
+
+        .app-button-disabled {
+            border: 1px solid #ADADAD;
+            color: #ADADAD;
+            cursor: not-allowed;
+        }
+
+        /* Data */ 
+        #data {
+            font-size: 20px;
+            font-weight: 500;
+        }
+        #data > a {
+            color: #3B5998;
+        }
