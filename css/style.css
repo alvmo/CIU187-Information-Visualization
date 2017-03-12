@@ -191,7 +191,7 @@ body {
         }
         /* Iphone stuff */ 
         #phone {
-            background-image: url("/img/iphone2.png");
+            background-image: url("img/iphone2.png");
             background-size: 250px 500px;
             width: 250px;
             height: 500px;
