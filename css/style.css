@@ -7,7 +7,7 @@ body {
             /* Font */
             font-family: 'Roboto', sans-serif;
 
-            background: #D4D6D9;
+            background: #E6E8EB;
             padding: 0;
             margin: 0;
         }
@@ -24,7 +24,16 @@ body {
             flex-direction: column;
             
         }
-        
+        @keyframes titleAreaAnimation {
+            from {height: 100vh;}
+            to {height: 100px;}
+        }
+        .small-searchbar {
+            animation-name: titleAreaAnimation;
+            animation-timing-function: ease-out;
+            animation-duration: 0.5s;
+        }
+
         #titleArea {
             width: 100%;
             min-width: 1100px;
@@ -33,15 +42,16 @@ body {
             align-items: center;
             justify-content: center;
             background: #3B5998;
+            background: linear-gradient(45deg, #3b5998 0%,#5573b2 100%);
             padding: 30px 0 20px;
-
+            border-bottom: 1px solid #243F72;
         }
         #searchfield {
             width: calc(1060 - 24px);
-            height: 32px;
+            height: 48px;
             background: white;
             margin: 0 0 8px;
-            padding: 16px;
+            padding: 0;
             border-radius: 4px;
             display: flex;
             align-items: center;
@@ -51,13 +61,27 @@ body {
         #search {
             width: 32px;
             height: 32px;
+            border-radius: 0 4px 4px 0;
+            padding: 8px 16px; 
+            background: #F5F6F8;
         }
 
+        @keyframes subtitleAnimation {
+            from {opacity: 0}
+            to {opacity: 1}
+        }
 
         #subtitle {
             margin: 5px 0;
             color: white;
             font-size: 20px;
+            opacity: 0
+        }
+
+        .show-subtitle {
+            animation-name: subtitleAnimation;
+            animation-timing-function: ease-out;
+            animation-duration: 0.5s;
         }
 
         #title-container {
@@ -65,7 +89,7 @@ body {
         }
 
         #title {
-
+            margin: 16px;
             text-align: left;
       
             color: #252525;
@@ -84,6 +108,10 @@ body {
             align-items: top;
             justify-content: center;
             border-bottom: 1px solid #999;
+            border-top: 1px solid #999;
+            border-radius: 8px;
+            margin-top: 30px;
+            overflow: hidden;
         }
 
 
@@ -97,6 +125,7 @@ body {
             flex-direction: column;
             justify-content: flex-start;
             align-items: center;
+            border-radius: 8px 0 0 8px;
    
         }
 
@@ -148,7 +177,7 @@ body {
             background: white;
             padding: 30px;
             border-right: 1px solid #999;
-           
+            border-radius:  0 8px 8px 0;
         }
 
         .section-right > h3 {
@@ -164,7 +193,9 @@ body {
             padding: 0;
      
         }
-
+        .tab {
+            border-radius: 8px 8px 0 0 ;
+        }
         .tab, .app-tab {
             display: inline;
             margin: 0 10px;
